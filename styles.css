@@ -11,19 +11,21 @@ body {
   font-family: 'Noto Sans', sans-serif;
   background-color: #efefef;
 }
-nav {
+header {
   grid-area: nav;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 75px;
+  height: 80px;
   background-color: #43281C;
   color: #FBF2C0;
+  font-size: 16px;
 }
 .coffee-masters-logo {
-  height: 25px;
+  height: 30px;
   padding: 0 5px 0 5px;
+  margin-top: 4px;
 }
 .page {
   padding: 30px;
@@ -143,4 +145,9 @@ nav {
 }
 .final-totals {
   font-weight: bold;
+}
+@media (max-width: 750px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
 }
