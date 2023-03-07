@@ -30,9 +30,6 @@ nav {
 }
 .main-container {
   grid-area: main-container;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 30px;
